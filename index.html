@@ -14,17 +14,17 @@
     <header>
         <nav class="navBar">
             <h3>Michelle Leal</h3>
-            <p>Sobre mí</p>
-            <p>Skills</p>
-            <p>Hobbies</p>
-            <p>Formación</p>
-            <p>Proyectos</p>
-            <p class="fond">Contacto</p>
+            <p><a href="#Sobre">Sobre mí</a></p>
+            <p><a href="#Skills">Skills</a></p>
+            <p><a href="#Hobbies">Hobbies</a></p>
+            <p><a href="#formacion">Formación</p></a>
+            <p><a href="#Experiencia">Proyectos</a></p>
+            <p class="fond"><a href="#Contacto">Contacto</a></p>
         </nav>
     </header>
     <article>
         <section>
-            <h1>Sobre mí</h1>
+            <h1 id="Sobre">Sobre mí</h1>
             <p>Hola, mi nombre es Michelle Leal, y construyo páginas web.</p>
             <p>
                 Actualmente estudio en la facultad de Ciencias Físico Matemáticas en San Nicolás de los Garza, México.
@@ -39,7 +39,7 @@
         </section>
     </article>
     <section>
-            <h1>Skills</h1>
+            <h1 id="Skills">Skills</h1>
         <div class="fondo1">
             <div class="container">
                 <img title="HTML_icon" class="HTML" src="Images/HTML_icon.png">
@@ -61,7 +61,7 @@
         <br>
     </section>
     <section>
-        <h1>Hobbies</h1>
+        <h1 id="Hobbies">Hobbies</h1>
         <div class="fondo1">
             <div class="container">
                 <img title="leer" class="HTML" src="Images/leer.png">
@@ -82,7 +82,7 @@
         </div>
     </section>
     <section>
-        <h1>Formación académica</h1>
+        <h1 id="formacion">Formación académica</h1>
         <div class="fondo2">
             <div class="container2">
                 <img title="udemy" class="udemy" src="Images/udemy.png">
@@ -102,7 +102,7 @@
         </div>
     </section>
     <section class="area">
-        <h1>Experiencia Profesional</h1>
+        <h1 id="Experiencia">Experiencia Profesional</h1>
             <div class="container3">
                 <p>Página de lógistica</p>
                 <div class="botones">
@@ -116,13 +116,13 @@
                     <img title="encriptador" class="encriptador" src="Images/Encriptador-texto.jpeg">
                 <p>Encriptador de Texto</p>
                 <div class="botones2">
-                    <button class="repoBoton">Repositorio</button>
+                    <button onclick="location.href='https://github.com/DoctoraSt/Challenge-Oracle-One'" class="repoBoton">Repositorio</button>
                     <button class="demoBoton">Ver Demo</button>
                 </div>
             </div>
     </section>
     <section>
-        <h1>Contacto</h1>
+        <h1 id="Contacto">Contacto</h1>
         <div class="containerContacto fondo3">
 
             <div class="recuadroForm">
@@ -149,9 +149,13 @@
             </div>
         </div>
     </section>
+    <div class="arriba">
+        <i></i>
+    </div>
     <footer>
         <p>Desarrollado por: Michelle Leal</p>
         <p>2023</p>
     </footer>
+    <script src="arriba.js"></script>
 </body>
 </html>
